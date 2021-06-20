@@ -1,0 +1,54 @@
+.service_details{
+    position: absolute;
+    top: 30vh;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.service_details h2{
+    background-color: rgba(0,0,0,0.05);
+    color: aliceblue;
+    font-family: Trykker;
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 80px;
+    padding: 2rem;
+}
+.services_options{
+    border: 1px solid #112774;
+    background-color: #112774;
+    outline: none;
+    height: fit-content;
+    text-align: center;
+}
+.services_options p{
+    border-bottom: 1px solid white;
+    color: #EB7723;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.services_options p:last-child{
+    border-bottom: none;
+}
+
+@media screen and (max-width:500px){
+    .service_details{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        position: absolute;
+        top: 30vh;
+        padding: 1rem;
+    }
+    .service_details h2{
+        all: unset;
+        color: white;
+        font-size: 2rem;
+        font-family: Trykker;
+    }
+    .services_options p{
+        margin: 0;
+        padding: 0.2rem;
+    }
+}
+
+
+    

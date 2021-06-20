@@ -1,0 +1,53 @@
+.form-container{
+    position: relative;
+    top: 10rem;
+    width: 100%;
+    max-width: 70%;
+    height: 45%;
+    border: 5px solid #112774 ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    align-content: center;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.form-container input{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.form-container label{
+    padding: 0.5rem;
+}
+h1{
+    text-align: center;
+}
+@media screen and  (min-width:500px){
+    .form-container{
+        all: unset;
+        position: relative;
+        top: 10rem;
+        width: 100%;
+        max-width: 40%;
+        height: 45%;
+        border: 5px solid #112774;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    button{
+        margin: 1rem;
+        color: wheat;
+        background-color: #EB7723;
+        border: none;
+        padding: 0.5rem;
+        font-weight: 500;
+    }
+    .form-container form{
+        width: 100%;
+        padding: 0.8rem;
+    }
+}
